@@ -1,9 +1,13 @@
 <p align="center">
-<a href="https://github.com/yaswanth230755/ShortestPathVisualizer">
-	<img width="800" src="./Screenshot 2025-07-05 172107.png" alt="Shortest Path Visualizer"/>
-</a>
-	<h2 align="center"> Shortest Path Visualizer </h2>
-	<h4 align="center"> An interactive web application that brings pathfinding algorithms to life through stunning visualizations. Watch as BFS, Dijkstra's Algorithm, and A* Search explore grids in real-time, helping you understand how these fundamental computer science algorithms work. Perfect for students, developers, and anyone curious about how navigation systems and AI pathfinding actually operate under the hood. </h4>
+  <a href="https://github.com/yaswanth230755/ShortestPathVisualizer">
+    <img width="800" src="./Screenshot 2025-07-05 172107.png" alt="Shortest Path Visualizer"/>
+  </a>
+  <h2 align="center">Shortest Path Visualizer</h2>
+  <h4 align="center">
+    An interactive web application that brings pathfinding algorithms to life through stunning visualizations. 
+    Watch as BFS, Dijkstra's Algorithm, and A* Search explore grids in real-time, helping you understand how these fundamental computer science algorithms work. 
+    Perfect for students, developers, and anyone curious about how navigation systems and AI pathfinding operate under the hood.
+  </h4>
 </p>
 
 #### **Instructions to build and run the app can be found [here](#-quick-start)**
@@ -11,11 +15,11 @@
 ---
 
 [![GitHub Stars](https://img.shields.io/github/stars/yaswanth230755/ShortestPathVisualizer?style=flat-square)](https://github.com/yaswanth230755/ShortestPathVisualizer/stargazers)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-orange?style=flat-square)](https://yaswanth230755.github.io/ShortestPathVisualizer)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-orange?style=flat-square)](https://yaswanth230755.vercel.app)
 [![Documentation](https://img.shields.io/badge/Documentation-Read%20Docs-green?style=flat-square)](https://github.com/yaswanth230755/ShortestPathVisualizer#readme)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-yaswanth230755-blue?style=flat-square)](https://github.com/yaswanth230755)
 
-
+---
 
 ## ✨ Features
 - [ ]  Multiple Pathfinding Algorithms (BFS, Dijkstra, A*)
