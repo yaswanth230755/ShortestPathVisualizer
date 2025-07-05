@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/yaswanth230755/ShortestPathVisualizer">
-	<img width="800" src="./logo.png" alt="Shortest Path Visualizer"/>
+	<img width="800" src="./Screenshot 2025-07-05 172107.png" alt="Shortest Path Visualizer"/>
 </a>
 	<h2 align="center"> Shortest Path Visualizer </h2>
 	<h4 align="center"> An interactive web application that brings pathfinding algorithms to life through stunning visualizations. Watch as BFS, Dijkstra's Algorithm, and A* Search explore grids in real-time, helping you understand how these fundamental computer science algorithms work. Perfect for students, developers, and anyone curious about how navigation systems and AI pathfinding actually operate under the hood. </h4>
