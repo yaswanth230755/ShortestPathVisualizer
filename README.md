@@ -16,7 +16,6 @@
 [![GitHub Profile](https://img.shields.io/badge/GitHub-yaswanth230755-blue?style=flat-square)](https://github.com/yaswanth230755)
 
 
-#### **Instructions to build and run the app can be found [here](doc.md)**
 
 ## ✨ Features
 - [ ]  Multiple Pathfinding Algorithms (BFS, Dijkstra, A*)
