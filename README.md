@@ -15,7 +15,7 @@
 ---
 
 [![GitHub Stars](https://img.shields.io/github/stars/yaswanth230755/ShortestPathVisualizer?style=flat-square)](https://github.com/yaswanth230755/ShortestPathVisualizer/stargazers)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-orange?style=flat-square)](https://yaswanth230755.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-orange?style=flat-square)](https://shortest-path-visualizer-sable.vercel.app/)
 [![Documentation](https://img.shields.io/badge/Documentation-Read%20Docs-green?style=flat-square)](https://github.com/yaswanth230755/ShortestPathVisualizer#readme)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-yaswanth230755-blue?style=flat-square)](https://github.com/yaswanth230755)
 
@@ -134,6 +134,6 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Yaswanth Veera Nagesh
+Adimulam Yaswanth Veera Nagesh
 
-GitHub: @yaswanth230755
+GitHub: yaswanth230755
