@@ -1,61 +1,72 @@
-# Shortest Path Visualizer
+# 🗺️ Shortest Path Visualizer
 
-<p align="center">
-  <a href="https://github.com/yaswanth230755/ShortestPathVisualizer">
-    <img width="800" src="./Screenshot 2025-07-05 172107.png" alt="Shortest Path Visualizer"/>
-  </a>
-  <h2 align="center">Shortest Path Visualizer</h2>
-  <h4 align="center">
-    An interactive web application that brings pathfinding algorithms to life through stunning visualizations. 
-    Watch as BFS, Dijkstra's Algorithm, and A* Search explore grids in real-time, helping you understand how these fundamental computer science algorithms work. 
-    Perfect for students, developers, and anyone curious about how navigation systems and AI pathfinding operate under the hood.
-  </h4>
-</p>
+<div align="center">
 
-#### **Instructions to build and run the app can be found [here](#-quick-start)**
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](#)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+
+<br>
+
+<a href="https://shortest-path-visualizer-sable.vercel.app/">
+  <img width="800" src="./Screenshot 2025-07-05 172107.png" alt="Shortest Path Visualizer"/>
+</a>
+
+**An interactive web app that brings path-finding algorithms to life**  
+_Build walls, add weights, adjust speed – then watch BFS, Dijkstra & A* explore in real time._
+
+[![GitHub Stars](https://img.shields.io/github/stars/yaswanth230755/ShortestPathVisualizer?style=social)](https://github.com/yaswanth230755/ShortestPathVisualizer/stargazers)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View-orange?style=flat-square)](https://shortest-path-visualizer-sable.vercel.app/)
+[![Docs](https://img.shields.io/badge/Documentation-Read-green?style=flat-square)](https://github.com/yaswanth230755/ShortestPathVisualizer#readme)
+
+</div>
 
 ---
 
-[![GitHub Stars](https://img.shields.io/github/stars/yaswanth230755/ShortestPathVisualizer?style=flat-square)](https://github.com/yaswanth230755/ShortestPathVisualizer/stargazers)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-orange?style=flat-square)](https://shortest-path-visualizer-sable.vercel.app/)
-[![Documentation](https://img.shields.io/badge/Documentation-Read%20Docs-green?style=flat-square)](https://github.com/yaswanth230755/ShortestPathVisualizer#readme)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-yaswanth230755-blue?style=flat-square)](https://github.com/yaswanth230755)
+## 🌟 Features
+
+| Category | Highlights |
+|----------|------------|
+| **Core Algorithms** | • Breadth-First Search (BFS) · Unweighted  <br>• Dijkstra’s Algorithm · Weighted  <br>• A* Search · Heuristic-guided |
+| **Interactive Grid** | • Drag-and-drop start/end nodes  <br>• Click-and-drag walls  <br>• Weighted cells (1-10)  <br>• Adjustable speed (10-200 ms) |
+| **Visual Experience** | • Real-time exploration  <br>• Smooth Tailwind animations  <br>• Color-coded states (visited, path, walls) |
+| **Technical Extras** | • Responsive design  <br>• Custom min-heap priority queue  <br>• Optimized renders & memory cleanup |
 
 ---
-
-## ✨ Features
-
-- ✅ **Multiple Pathfinding Algorithms** (BFS, Dijkstra, A*)
-- ✅ **Interactive Grid** with Drag-and-Drop Nodes
-- ✅ **Draw Walls** by Clicking and Dragging
-- ✅ **Real-time Algorithm Visualization**
-- ✅ **Adjustable Animation Speed Control**
-- ✅ **Weighted Graph Support** with Visual Indicators
-- ✅ **Dynamic Algorithm Selection** Based on Mode
-- ✅ **Path Tracing** and Shortest Path Highlighting
-- ✅ **Reset and Clear Grid** Functionality
-- ✅ **Responsive Design** for All Devices
-- ✅ **Weight Drawing Mode** for Weighted Algorithms
-- ✅ **Node Accessibility Validation**
-- ✅ **Smooth Animations** and Visual Feedback
-- ✅ **Professional UI** with Intuitive Controls
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **React.js** - Frontend framework with hooks
-- ⚡ **Vite** - Lightning-fast build tool  
-- 🎨 **Tailwind CSS** - Utility-first styling
-- 📝 **JavaScript (ES6+)** - Programming language
-- 📊 **Priority Queue** - Custom min-heap implementation
-- 🧠 **Advanced Algorithms** - BFS, Dijkstra, A* with optimizations
+| Tech | Purpose | Notes |
+|------|---------|-------|
+| ⚛️ React & Hooks | UI & state | `useState`, `useRef`, `useCallback` |
+| ⚡ Vite | Build tool | Instant dev server, lightning builds |
+| 🎨 Tailwind CSS | Styling | Utility-first, fully responsive |
+| 📝 ES6 JavaScript | Logic | Modern syntax & async/await |
+| 📊 Custom PQ | Data structure | O(log N) operations for Dijkstra & A* |
 
-## 🎯 Algorithm Performance
+---
 
-| Algorithm | Type | Time Complexity | Best For |
-|-----------|------|----------------|----------|
-| BFS | Unweighted | O(V + E) | Simple shortest path |
-| Dijkstra | Weighted | O((V + E) log V) | Weighted graphs |
-| A* | Weighted + Heuristic | O((V + E) log V) | Optimal pathfinding |
+## 📊 Algorithm Complexity
+
+| Algorithm | Time | Space | Best Use |
+|-----------|------|-------|----------|
+| BFS | O(V + E) | O(V) | Unweighted graphs |
+| Dijkstra | O((V + E) log V) | O(V) | Weighted graphs |
+| A* | O((V + E) log V) | O(V) | Weighted with heuristic |
+
+---
+
+## ⚡ Quick Start
+
+### Prerequisites
+- Node 14+
+- npm or yarn
+
+<details>
+<summary><b>Setup Steps</b></summary>
+
+
 
 ## ⚡ Quick Start
 
@@ -91,96 +102,145 @@ npm run dev
  ```
 http://localhost:5173/
 ```
+</details>
 
+---
 
 ## 🎮 How to Use
 
-### **Basic Controls**
-- **Start Node** (🟢): Drag to move the starting position
-- **End Node** (🔴): Drag to move the destination
-- **Walls** (⬛): Click and drag to draw obstacles
-- **Speed Control**: Adjust visualization speed with the slider
+### Basic Controls
+- 🟢 **Start Node** – drag to reposition  
+- 🔴 **End Node** – drag to reposition  
+- ⬛ **Walls** – click/drag to draw or erase  
+- 🎚️ **Speed** – slide between 10 – 200 ms
 
-### **Weighted Mode**
-1. Check the "Weighted" checkbox to enable weighted graphs
-2. Set your desired weight value (1-10)
-3. Click "Draw Weights" button
-4. Click and drag on empty cells to add weights
-5. Orange cells (🟠) indicate weighted nodes
+### Weighted Mode
+1. Enable **Weighted** checkbox  
+2. Set weight (1-10)  
+3. Click **Draw Weights**, then paint cells (🟠)
 
-### **Algorithm Selection**
-- **Unweighted Mode**: Only BFS is available
-- **Weighted Mode**: Choose between Dijkstra's Algorithm and A* Search
+### Visualization
+1. Pick algorithm (BFS / Dijkstra / A*)  
+2. Build walls & weights  
+3. Click **Start** and watch:  
+   - 🟦 Visited nodes  
+   - 🟡 Shortest path  
+4. Click **Reset** anytime
 
-### **Visualization Process**
-1. Select your desired algorithm
-2. Set up walls and weights (if using weighted mode)
-3. Click "Start" to begin visualization
-4. Watch as the algorithm explores the grid:
-   - Blue cells (🟦) show visited nodes
-   - Yellow cells (🟡) show the final shortest path
-5. Use "Reset" to clear the grid and start over
+---
 
-## 🧠 Algorithms Explained
+## 🧠 Algorithm Cheat-Sheets
 
-### **Breadth-First Search (BFS)**
-- **Type**: Unweighted
-- **Guarantee**: Finds shortest path in unweighted graphs
-- **How it works**: Explores all nodes at current depth before moving deeper
-- **Time Complexity**: O(V + E)
+<details>
+<summary><b>BFS</b></summary>
 
-### **Dijkstra's Algorithm**
-- **Type**: Weighted
-- **Guarantee**: Finds shortest path in weighted graphs
-- **How it works**: Always explores the closest unvisited node first
-- **Time Complexity**: O((V + E) log V)
+- **Type:** Unweighted  
+- **Guarantee:** Shortest path  
+- **Strategy:** Level-by-level exploration  
+- **Complexity:** O(V + E)
+</details>
 
-### **A* Search**
-- **Type**: Weighted with heuristic
-- **Guarantee**: Finds shortest path (with admissible heuristic)
-- **How it works**: Uses Manhattan distance heuristic to guide search toward goal
-- **Time Complexity**: O((V + E) log V)
+<details>
+<summary><b>Dijkstra</b></summary>
+
+- **Type:** Weighted (non-negative)  
+- **Guarantee:** Shortest path  
+- **Strategy:** Expand closest unvisited node via priority queue  
+- **Complexity:** O((V + E) log V)
+</details>
+
+<details>
+<summary><b>A* Search</b></summary>
+
+- **Type:** Weighted + Heuristic  
+- **Guarantee:** Optimal with admissible heuristic  
+- **Strategy:** f = g + h (actual + Manhattan estimate)  
+- **Complexity:** O((V + E) log V)
+</details>
+
+---
 
 ## 📁 Project Structure
 
+
+
 ```
 ShortestPathVisualizer/
-├── public/
-│ ├── index.html
-│ └── ...
-├── src/
-│ ├── App.jsx # Main application component
-│ ├── main.jsx # Application entry point
-│ └── index.css # Global styles
-├── package.json
-├── vite.config.js
+├─ public/
+│ └─ index.html
+├─ src/
+│ ├─ App.jsx # Main component
+│ ├─ main.jsx # Entry point
+│ └─ index.css # Tailwind & global styles
+├─ package.json # Scripts & deps
+├─ vite.config.js # Vite setup
+└─ tailwind.config.js # Tailwind setup
 └── README.md
 
 ```
 
+---
 
-## 🔧 Available Scripts
+## 🔧 Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+| Command | Purpose |
+|---------|---------|
+| `npm run dev` | Launch dev server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview build locally |
+| `npm run lint` | ESLint analysis |
 
-## 🎯 Key Features Implementation
+---
 
-### **Performance Optimizations**
-- **Priority Queue**: Efficient min-heap implementation for Dijkstra and A*
-- **Optimized Rendering**: Smart grid updates to prevent unnecessary re-renders
-- **Memory Management**: Proper cleanup and cancellation handling
+## 🎯 Implementation Highlights
 
-### **User Experience**
-- **Intuitive Controls**: Drag-and-drop interface for easy interaction
-- **Visual Feedback**: Clear color coding and smooth animations
-- **Responsive Design**: Works seamlessly across different screen sizes
+- **Priority Queue:** Custom min-heap for O(log N) insert/delete  
+- **Smart Rendering:** Updates only affected grid cells  
+- **Memory Safety:** Cancels async loops on reset  
+- **Responsive UI:** Tailwind + flex/grid for any screen
+
+---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. **Fork** ➜ `git checkout -b feature/YourFeature`  
+2. **Develop & commit** ➜ `git commit -m "Add feature"`  
+3. **Push** ➜ `git push origin feature/YourFeature`  
+4. **Open Pull Request** – we’ll review ASAP!
+
+Please follow code style, add comments, and update docs/tests.
+
+---
+
+## 📝 License
+
+Released under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+---
+
+## 👨‍💻 Author
+
+|  |  |
+|--|--|
+| **GitHub** | [@yaswanth230755](https://github.com/yaswanth230755) |
+| **LinkedIn** | [Adimulam Yaswanth Veera Nagesh](https://www.linkedin.com/in/adimulam-yaswanth-veera-nagesh-6014382a3/) |
+| **Email** | [adimulamyaswanthveeranagesh@gmail.com](mailto:adimulamyaswanthveeranagesh@gmail.com) |
+
+---
+
+## 🙏 Acknowledgments
+
+- Classic CS path-finding lectures & articles  
+- React & Tailwind community for awesome tools  
+- All OSS contributors who inspire continuous learning
+
+<div align="center">
+
+⭐ **Star this repo if it helped you!**  
+<br>  
+_“The best way to understand algorithms is to see them in action.”_
+
+</div>
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
